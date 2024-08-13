@@ -1,0 +1,165 @@
+.startup-detail-page header {
+  background-image:linear-gradient(rgba(10, 35, 5, 0.75), rgba(5, 10, 35, 0.75)),  url(C:\Users\Asus\Desktop\ktech\ktech\kle\public\farm.png);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: auto;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
+}
+
+.startup-detail-page {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.header .banner {
+  text-align: center;
+  padding: 200px 0;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.info-blocks {
+  padding: 20px;
+}
+
+.block {
+  margin-bottom: 20px;
+}
+
+.testimonials {
+  padding: 20px;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.big-feature-section {
+  padding: 20px;
+}
+
+.big-feature-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feature-img img {
+  max-width: 100%;
+  height: 300px;
+  width: 450px;
+  border-radius: 8px;
+}
+.feature-img img:hover {
+  transform: scale(1.1);
+}
+
+.feature-desc {
+  max-width: 500px;
+  margin-left: 20px;
+}
+/* General styles for the info-blocks section */
+.info-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+}
+
+/* Styles for individual blocks */
+.info-blocks .block {
+  flex: 1 1 calc(50% - 40px); /* Adjust the width of each block */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for blocks */
+.info-blocks .block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for headings */
+.info-blocks .block h2 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.5em;
+  border-bottom: 2px solid #007BFF;
+  padding-bottom: 10px;
+}
+
+/* Styles for paragraphs */
+.info-blocks .block p {
+  color: #666;
+  line-height: 1.6;
+}
+.big-feature-section {
+  padding: 40px 0;
+  background-color: #f5f5f5;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+}
+
+.big-feature-section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.big-feature-section .feature-img {
+  flex: 1;
+  text-align: center;
+}
+
+.big-feature-section .feature-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.big-feature-section .feature-desc {
+  flex: 1;
+  padding: 20px;
+}
+
+.big-feature-section .feature-desc h4 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.big-feature-section .feature-desc h3 {
+  font-size: 2em;
+  color: #007BFF;
+  margin-bottom: 20px;
+}
+
+.big-feature-section .feature-desc p {
+  font-size: 1em;
+  color: #666;
+  line-height: 1.6;
+}

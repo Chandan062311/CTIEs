@@ -1,0 +1,11 @@
+.startups-page header {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/startmain.png);
+}
+
+.startups-page .card-img-overlay {
+    background-color: rgba(5, 10, 35, 0.7);
+}
+
+.startups-page .card:hover {
+    cursor: pointer;
+}
